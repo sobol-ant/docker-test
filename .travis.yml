@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t darvidont/docker-test -f Dockrefile.dev .
+  - docker build -t darvidont/docker-test -f Dockerfile.dev .
 
 script:
   - docker run darvidont/docker-test npm run test -- --coverage
