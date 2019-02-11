@@ -12,14 +12,7 @@ class App extends Component {
             Awsome test!!!
           </p>
           <h1>Hows going!!!</h1>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <p>The Best point to start something new.</p>
         </header>
       </div>
     );
